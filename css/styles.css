@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+* a{
+    text-decoration: none;
+}
+div{
+    padding: 5px;
+}
+
+.logo-img{
+    display:block;
+    margin: 0 25%;
+    
+    
+}
+
+center-span{
+    margin: 0 auto;
+}
+#pointer{
+    color: blue;
+    padding-left: 0%;
+}
+
+fieldset{
+    width: 75%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px 25px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+
+}
+fieldset label{
+    font-size: 90%;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+form input[type="submit"]{
+    background-color: #f7c548;
+    font-size: 90%;
+}
+
+#forgot {
+    float: right;
+    font-size: 90%;
+
+}
+
+#line {
+    overflow: hidden;
+    text-align: center;
+}
+#line:before,
+#line:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    
+    
+}
+#line:before {
+    
+    margin-left: -75%;
+}
+#line:after {
+    
+    margin-right: -50%;
+
+}
+
+button {
+    width: 75%;
+    border-radius: 3px;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+#conditions {
+    
+    margin-right: 15px;
+    font-size: 10px;
+    margin: auto;
+    padding-left: 20%;
+    text-align: center;
+
+}
+#privacy {
+    
+    margin-right: auto;
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    padding-left: 2%;
+}
+#help {
+    margin: auto;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 10px;
+    padding-left: 5%;
+}
+p {
+   font-size: 10px;
+   padding-left: 20%;
+   
+}
+
